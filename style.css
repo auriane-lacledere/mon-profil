@@ -1,0 +1,129 @@
+body{
+	background-color: #81968F;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	text-align:center;
+}
+
+h1{
+	color: #384D48;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+h2{
+	color: #C5ACA3;
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+	text-align: center;
+	font-weight: bold;
+}
+
+p{
+	text-justify: center;
+}
+
+a{
+	text-decoration: none;
+	color: #EDDCD2
+}
+
+a:hover{
+	color: #C5ACA3
+}
+
+#photo-moi{
+	border-radius: 20%
+}
+
+.card-white {
+	background: white;
+	padding: 40px;
+	margin: 20px;
+	box-shadow: 6px 5px 10px rgba(25,50,60,0.1)
+}
+
+.btn-vert{
+	background-color: #EDDCD2;
+	color: black;
+	padding: 15px 20px;
+	text-align: center;
+	border-radius: 4px;
+}
+
+.liste-horizontale{
+	list-style: none;
+	display: inline;
+	padding: 10px;
+}
+
+.liste-horizontale li {
+	display: inline;
+	padding: 10px;
+}
+
+.liste-une {
+	list-style: none;
+	display: inline;
+	padding: 10px;
+}
+
+.liste-horizontale i {
+font-size: 40px;
+color: #EDDCD2;
+}
+
+.liste-horizontale i:hover {
+font-size: 40px;
+color: #C5ACA3;
+}
+
+#introduction p {
+margin-bottom: 40px;
+}
+
+.liste-deux {
+	list-style: none;
+	display: inline;
+	padding: 10px;
+}
+
+.liste-trois {
+	list-style: none;
+	display: inline;
+	padding: 10px;
+}
+
+.liste-quatre {
+	list-style: none;
+	display: inline;
+	padding: 10px;
+}
+
+.liste-cinq{
+	list-style: none;
+	display: inline;
+	padding: 10px;
+}
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
